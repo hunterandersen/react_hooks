@@ -1,1 +1,21 @@
-/* Add custom styling here */
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+button {
+  margin: 2px;
+}
+
+.tasksContainer{
+    width:fit-content;
+    margin:auto;
+}
+
+li{
+    margin:2px;
+    padding:2px;
+    text-align: left;
+}
